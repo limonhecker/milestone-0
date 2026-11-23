@@ -1,0 +1,13 @@
+export enum OrganizationRole {
+  BRAND = 'BRAND',
+  SUPPLIER = 'SUPPLIER',
+  FACTORY = 'FACTORY',
+  AUDITOR = 'AUDITOR',
+}
+
+export enum LotStage {
+  RAW_MATERIAL = 'RAW_MATERIAL',
+  WORK_IN_PROGRESS = 'WORK_IN_PROGRESS',
+  FINISHED_GOOD = 'FINISHED_GOOD',
+  PACKED = 'PACKED',
+}
